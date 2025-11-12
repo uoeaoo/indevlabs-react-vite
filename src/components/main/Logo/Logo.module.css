@@ -1,0 +1,28 @@
+.logo {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 3px 2px 0 #000000a1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 20px;
+}
+
+.logo:hover {
+  text-shadow: 4px 4px 0 #000000a1;
+}
+
+.logo span {
+  color: rgb(166, 190, 255);
+}
+
+@media (max-width: 895px) {
+  .logo {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}

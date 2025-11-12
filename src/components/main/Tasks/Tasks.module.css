@@ -1,0 +1,77 @@
+.tasks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  gap: 50px;
+}
+
+.tasksHeader {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasksGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formCon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formCon input,
+.formCon textarea {
+  border: 2px solid #646cff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.formButton,
+.addButton {
+  box-shadow: 0 0 0 2px #646cff;
+  border: none;
+  padding: 10px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.formButton:hover,
+.addButton:hover {
+  background: #646cff;
+  color: #fff;
+}
+
+@media (max-width: 1567px) {
+  .tasksGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1300px) {
+  .tasksGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 895px) {
+  .tasksGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

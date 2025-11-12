@@ -1,0 +1,31 @@
+{
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Check Miron's project",
+        "description": "We should check the project of the potential colleague.",
+        "fullInfo": "Miron is a Frontend Developer. We found him on hh.ru platform. After the small conversation we sent him the React Mini-App Assessment (Dashboard + Hooks). Goal of this assessment is: Build a tiny React app that lists items (e.g., “Projects” or “Tasks”), supports a search filter, shows an item details view via routing, and uses one custom hook for data access (mocked locally). Keep it simple but idiomatic. Core expectations: • Modern React (v18+), Vite. • Functional components + hooks. • One custom hook (e.g., useProjects()). • Basic routing for list → details. • A controlled form input for filtering. • A11y: at least one aria-* attribute. • A minimal test. • Readme with run instructions.",
+        "creationDate": "2025-11-10",
+        "deadline": "2025-11-14",
+        "completed": false
+      },
+      {
+        "id": 2,
+        "title": "Make an interview with Miron",
+        "description": "This guy created everything we asked.",
+        "fullInfo": "He created the React Mini-App so fast. Not the fastest by the way, but others are really sending us bad projects. No. Bad is not that word... Projects even worse than this. Yeah, Ui/Ux is not perfect, but we are not searching for designer, are we? So, we need to call him and discuss some!",
+        "creationDate": "2025-11-14",
+        "deadline": "2025-11-17",
+        "completed": false
+      },
+      {
+        "id": 3,
+        "title": "Make an offer to Miron",
+        "description": "Damn... This guy is really good.",
+        "fullInfo": "After conversation we have decided one thing: WE. NEED. THIS. GUY. NOW. We can see his potential and soft/hard skills. He is the puzzle that we are looking for. An art is going to be complete... And then... We will do big things together!",
+        "creationDate": "2025-11-17",
+        "deadline": "2025-11-20",
+        "completed": false
+      }
+    ]
+  }

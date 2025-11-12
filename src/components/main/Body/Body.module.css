@@ -1,0 +1,23 @@
+.dashboard {
+  width: 100%;
+  padding: 50px;
+  margin-left: 200px;
+}
+
+.dashboardInside {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+}
+
+
+@media (max-width: 895px) {
+  .dashboard {
+    width: 100%;
+    padding: 10px;
+    margin-left: 100px;
+  }
+  
+}
