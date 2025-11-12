@@ -1,8 +1,8 @@
 Please follow the instructions described here to run this project on you PC. 
 
-1/ Clone this repo by writing a following command in your terminal: git clone https://github.com/username/your-repo-name.git
+1/ Clone this repo by writing a following command in your terminal: git clone https://github.com/uoeaoo/indevlabs-react-vite
 
-2/ CD to project: cd your-repo-name
+2/ CD to project: cd indevlabs-react-vite
 
 3/ Install dependencies: npm install
 
